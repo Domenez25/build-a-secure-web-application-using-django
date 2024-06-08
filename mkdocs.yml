@@ -1,0 +1,28 @@
+site_name: Web Security Using Django
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Core Concepts:
+      - Overview of Web Security Threats: core-concepts/overview.md
+      - Importance of Security in Web Development: core-concepts/importance.md
+  - Django Security Features:
+      - SQL Injection Protection: django-security/sql-injection.md
+      - Cross-Site Scripting (XSS) Protection: django-security/xss.md
+      - Cross-Site Request Forgery (CSRF) Protection: django-security/csrf.md
+      - Secure Password Storage: django-security/password-storage.md
+      - HTTPS Support: django-security/https.md
+  - Best Practices:
+      - Regular Updates: best-practices/updates.md
+      - Password Policies: best-practices/password-policies.md
+      - Input Validation: best-practices/input-validation.md
+      - Secure Settings Configuration: best-practices/settings.md
+      - Monitoring and Auditing: best-practices/monitoring.md
+  - Advanced Techniques:
+      - Using Django Security Middleware: advanced-techniques/security-middleware.md
+      - Custom Security Middleware: advanced-techniques/custom-middleware.md
+      - Logging and Monitoring Security Events: advanced-techniques/logging.md
+  - Case Studies: case-studies.md
+  - Additional Resources: resources.md
+  - About the Author: author.md
