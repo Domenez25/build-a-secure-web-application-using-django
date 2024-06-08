@@ -6,8 +6,18 @@ site_url: https://github.com/Domenez25/secure-web-application-using-django
 theme:
   name: material
   palette:
-    primary: "indigo"
-    accent: "indigo"
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: "indigo"
+      accent: "indigo"
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: "indigo"
+      accent: "indigo"
   font:
     text: "Roboto"
     code: "Roboto Mono"
@@ -22,9 +32,9 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - navigation.expand
-
     # - navigation.sections
     - search.share
+    - content.code.copy
 
 nav:
   - Home: index.md
