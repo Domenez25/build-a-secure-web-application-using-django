@@ -1,6 +1,31 @@
 site_name: Web Security Using Django
+site_description: Comprehensive documentation on web security using Django
+site_author: Domenez25
+site_url: https://github.com/Domenez25/secure-web-application-using-django
+
 theme:
-  name: mkdocs
+  name: material
+  palette:
+    primary: "indigo"
+    accent: "indigo"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  logo: "images/logo.png"
+  favicon: "images/favicon.ico"
+  features:
+    # - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    # - toc.integrate
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.expand
+
+    # - navigation.sections
+    - search.share
+
 nav:
   - Home: index.md
   - Introduction: introduction.md
@@ -26,3 +51,20 @@ nav:
   - Case Studies: case-studies.md
   - Additional Resources: resources.md
   - About the Author: author.md
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        en: English
+        fr: Français
+      default_language: en
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details

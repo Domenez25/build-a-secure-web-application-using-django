@@ -1,3 +1,21 @@
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Custom JavaScript loaded!');
+    const themeToggle = document.querySelector('.md-header__button--theme');
+    themeToggle.addEventListener('click', () => {
+        const isDarkMode = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
+
+    const languageSwitcher = document.querySelector('.md-header__button--language');
+    languageSwitcher.addEventListener('click', () => {
+        const currentLang = document.documentElement.lang;
+        const newLang = currentLang === 'en' ? 'fr' : 'en';
+        document.documentElement.lang = newLang;
+        localStorage.setItem('language', newLang);
+    });
+});
+
+
 function getSearchTerm() {
     var sPageURL = window.location.search.substring(1);
     var sURLVariables = sPageURL.split('&');
