@@ -40,6 +40,8 @@ nav:
   - Home: index.md
   - Introduction: introduction.md
   - Core Concepts:
+      - Overview of Security: core-concepts/security.md
+      - Overview of Web applications: core-concepts/web apps.md
       - Overview of Web Security Threats: core-concepts/overview.md
       - Importance of Security in Web Development: core-concepts/importance.md
   - Django Security Features:
