@@ -51,11 +51,17 @@ nav:
       - Secure Password Storage: django-security/password-storage.md
       - HTTPS Support: django-security/https.md
   - Best Practices:
-      - Regular Updates: best-practices/updates.md
-      - Password Policies: best-practices/password-policies.md
-      - Input Validation: best-practices/input-validation.md
-      - Secure Settings Configuration: best-practices/settings.md
-      - Monitoring and Auditing: best-practices/monitoring.md
+      - General Security Practices: best-practices/general-security-practices.md
+      - Secure Coding Practices: best-practices/secure-coding-practices.md
+      - authentication authorization: best-practices/authentication-authorization.md
+      - dataprotection: best-practices/data-protection.md
+      - configuration deployment: best-practices/configuration-deployment.md
+      - network security: best-practices/network-security.md
+      - monitoring logging: best-practices/monitoring-logging.md
+      - third party dependencies: best-practices/third-party-dependencies.md
+      - performance scalability: best-practices/performance-scalability.md
+      - user education awareness: best-practices/user-education-awareness.md
+      - compliance legal: best-practices/compliance-legal.md
   - Advanced Techniques:
       - Using Django Security Middleware: advanced-techniques/security-middleware.md
       - Custom Security Middleware: advanced-techniques/custom-middleware.md
