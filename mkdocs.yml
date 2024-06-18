@@ -61,7 +61,7 @@ nav:
       - third party dependencies: best-practices/third-party-dependencies.md
       - performance scalability: best-practices/performance-scalability.md
       - user education awareness: best-practices/user-education-awareness.md
-      - compliance legal: best-practices/compliance-legal.md
+      # - compliance legal: best-practices/compliance-legal.md
   - Advanced Techniques:
       - Using Django Security Middleware: advanced-techniques/security-middleware.md
       - Custom Security Middleware: advanced-techniques/custom-middleware.md

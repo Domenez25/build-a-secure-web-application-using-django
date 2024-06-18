@@ -1,3 +1,4 @@
+.gitignore
 roadmap.md
 temp.md
 django-docs-venv
