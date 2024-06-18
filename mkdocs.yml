@@ -63,9 +63,13 @@ nav:
       - user education awareness: best-practices/user-education-awareness.md
       # - compliance legal: best-practices/compliance-legal.md
   - Advanced Techniques:
-      - Using Django Security Middleware: advanced-techniques/security-middleware.md
-      - Custom Security Middleware: advanced-techniques/custom-middleware.md
-      - Logging and Monitoring Security Events: advanced-techniques/logging.md
+      - custom middleware security: advanced-techniques/custom-middleware-security.md
+      - advanced authentication: advanced-techniques/advanced-authentication.md
+      - rbac: advanced-techniques/rbac.md
+      - Rate Limiting and Throttling: advanced-techniques/Rate-Limiting-and-Throttling.md
+      - API Security: advanced-techniques/API-Security.md
+      - Advanced Logging and Monitoring: advanced-techniques/Advanced-Logging-and-Monitoring.md
+      - SIEM: advanced-techniques/SIEM.md
   - Case Studies: case-studies.md
   - Additional Resources: resources.md
   - About the Author: author.md
