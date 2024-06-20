@@ -4,11 +4,12 @@ Welcome to the comprehensive documentation on web security using Django. This re
 
 ### Overview
 
-Web security is a critical component of web development, addressing vulnerabilities and safeguarding applications against various cyber threats. Django, a high-level Python web framework, comes equipped with robust security features that help developers build secure applications with ease.
+Web security is a critical component of web development, addressing vulnerabilities and safeguarding applications against various cyber threats.<br>
+Django, a high-level Python web framework, comes equipped with robust security features that help developers build secure applications with ease.
 
 ### Who I Am
 
-I am Bouzara Zakaria, a network engineering studet at University of Science and Technology Houari Boumedien, Algeria. And a seasoned web developer with extensive experience in building and securing web applications using Django. Through this documentation, I aim to share my knowledge and best practices to help you create secure and reliable web applications.
+I am Bouzara Zakaria, a network engineering studet at University of Science and Technology Houari Boumedien. And a seasoned web developer with good experience in building and securing web applications using Django. Through this documentation, I aim to share my knowledge and best practices to help you create secure and reliable web applications.
 
 ### What You'll Learn
 
@@ -24,7 +25,7 @@ In this documentation, you will learn about:
 
 Dive into the documentation by exploring the following sections:
 
-- [Introduction to Web Security](#)
-- [Django Security Features](#)
-- [Best Practices in Django](#)
-- [Advanced Security Techniques](#)
+- [Introduction to Web Security](introduction/)
+- [Django Security Features](django-security/sql-injection/)
+- [Best Practices in Django](best-practices/general-security-practices/)
+- [Advanced Security Techniques](advanced-techniques/custom-middleware-security/)

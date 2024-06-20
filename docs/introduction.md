@@ -56,9 +56,9 @@ Building secure web applications is crucial in today’s digital landscape. Djan
 
 To delve deeper into Django's security features and best practices, explore the following sections:
 
-- [Django Security Overview](#)
-- [Configuring Secure Settings in Django](#)
-- [Best Practices for Secure Django Development](#)
-- [Advanced Security Techniques](#)
+- [Django Security Overview](core-concepts/security/)
+- [Configuring Secure Settings in Django](best-practices/secure-coding-practices.md)
+- [Best Practices for Secure Django Development](best-practices/general-security-practices.md)
+- [Advanced Security Techniques](advanced-techniques/custom-middleware-security.md)
 
 By continuously enhancing your knowledge and staying vigilant, you can build web applications that are both powerful and secure.

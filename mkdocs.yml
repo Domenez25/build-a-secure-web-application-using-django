@@ -50,6 +50,9 @@ nav:
       - Cross-Site Request Forgery (CSRF) Protection: django-security/csrf.md
       - Secure Password Storage: django-security/password-storage.md
       - HTTPS Support: django-security/https.md
+      - Content Security Policy (CSP): django-security/csp.md
+      - Logging: django-security/logging.md
+      - Security misconfigurations: django-security/misconfiguration.md
   - Best Practices:
       - General Security Practices: best-practices/general-security-practices.md
       - Secure Coding Practices: best-practices/secure-coding-practices.md
@@ -61,7 +64,7 @@ nav:
       - third party dependencies: best-practices/third-party-dependencies.md
       - performance scalability: best-practices/performance-scalability.md
       - user education awareness: best-practices/user-education-awareness.md
-      # - compliance legal: best-practices/compliance-legal.md
+      - compliance legal: best-practices/compliance-legal.md
   - Advanced Techniques:
       - custom middleware security: advanced-techniques/custom-middleware-security.md
       - advanced authentication: advanced-techniques/advanced-authentication.md

@@ -28,23 +28,23 @@ Granting or denying access to resources based on the user's identity and permiss
 
 Ensuring that actions or transactions cannot be denied after the fact. Digital signatures and audit logs help achieve non-repudiation by providing proof of actions taken.
 
-### Threats, Attacks, and Vulnerabilities
+## Threats, Attacks, and Vulnerabilities
 
 Understanding the distinctions between threats, attacks, and vulnerabilities is crucial in the context of security.
 
-**Threats**:
+### **Threats**:
 
 - **Definition**: Potential events or actions that could cause harm to a system or data.
 - **Example**: Malware, phishing attempts, natural disasters.
 - **Role**: Threats represent the possibility of a harmful event but do not actively cause harm by themselves.
 
-**Attacks**:
+### **Attacks**:
 
 - **Definition**: Deliberate actions taken to exploit vulnerabilities and cause harm to a system or data.
 - **Example**: SQL injection, cross-site scripting (XSS), denial of service (DoS) attacks.
 - **Role**: Attacks are the actual events that occur when a threat is realized, actively compromising security.
 
-**Vulnerabilities**:
+### **Vulnerabilities**:
 
 - **Definition**: Weaknesses or flaws in a system that can be exploited by threats or attacks to cause harm.
 - **Example**: Unpatched software, weak passwords, insecure configurations.
