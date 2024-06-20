@@ -18,9 +18,9 @@ Hello! I'm BOUZARA Zakaria, a network engineer, a passionate web developer and a
 
 ## Contact
 
-- **Email**: [bouzara.zakaria.25@gmail.com]
-- **GitHub**: [https://github.com/Domenez25]
-- **LinkedIn**: [https://www.linkedin.com/in/bouzara-zakaria-4a103627a/]
+- **Email**: [bouzara.zakaria.25@gmail.com](bouzara.zakaria.25@gmail.com)
+- **GitHub**: [github.com/Domenez25](https://github.com/Domenez25)
+- **LinkedIn**: [https://www.linkedin.com/in/bouzara-zakaria](https://www.linkedin.com/in/bouzara-zakaria-4a103627a/)
 
 ## Conclusion
 
